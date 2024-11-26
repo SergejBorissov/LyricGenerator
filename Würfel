@@ -1,0 +1,17 @@
+package de.borissov;
+
+import java.util.Random;
+
+public class Würfel {
+
+    Gegenstand gegenstand = new Gegenstand();
+
+    int size = gegenstand.stringList.size();
+
+    Random random = new Random();
+
+    public int zufall(){
+
+        return random.nextInt(size);
+    }
+}
