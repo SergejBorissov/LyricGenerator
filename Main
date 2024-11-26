@@ -1,0 +1,37 @@
+package de.borissov;
+
+
+import java.util.List;
+import java.util.Random;
+
+/**
+ * @author Sergej Borissov
+ * @TaskNext: anstatt von String Literalen eine Liste mit Verben, Adjektiven usw.
+ *            zum randomisierten abrufen implementieren
+ */
+
+
+public class Main {
+
+
+
+    public static void main(String[] args) {
+
+        Würfel würfel = new Würfel();
+        Gegenstand gegenstand = new Gegenstand();
+        TueWort tueWort = new TueWort();
+        TueWortEnde tueWortEnde = new TueWortEnde();
+        GegenstandEnde gegenstandEnde = new GegenstandEnde();
+        Präpostion präpostion = new Präpostion();
+
+        System.out.print(tueWort.stringList.get(würfel.zufall()) + " ");
+        System.out.print(gegenstand.stringList.get(würfel.zufall()) + " ");
+        System.out.print(tueWortEnde.strings.get(würfel.zufall()) + " ");
+        System.out.print(präpostion.präWort.get(würfel.zufall()) + " ");
+        System.out.print(gegenstandEnde.stringList.get(würfel.zufall()) + " ");
+
+
+    }
+
+
+}
