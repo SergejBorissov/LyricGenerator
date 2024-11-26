@@ -1,0 +1,17 @@
+package de.borissov;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TueWortEnde {
+
+    List<String> strings = new ArrayList<>();
+
+    public TueWortEnde(){
+        strings.add("gelenkte");
+        strings.add("versenkte");
+        strings.add("abgeträumte");
+        strings.add("umspannte");
+        strings.add("angeklungene");
+    }
+}
