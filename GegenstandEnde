@@ -1,0 +1,17 @@
+package de.borissov;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GegenstandEnde {
+
+    List<String> stringList = new ArrayList<>();
+
+    public GegenstandEnde(){
+        stringList.add("Nachtigall");
+        stringList.add("Tieraugen");
+        stringList.add("Flussweg");
+        stringList.add("Zeitkristall");
+        stringList.add("Fähre");
+    }
+}
