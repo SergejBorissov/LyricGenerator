@@ -1,0 +1,23 @@
+package de.borissov;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TueWort {
+
+
+    List<String> stringList = new ArrayList<>();
+
+
+    public TueWort(){
+        stringList.add("Lege");
+        stringList.add("Fahre");
+        stringList.add("Tauche");
+        stringList.add("Suche");
+        stringList.add("Bilde");
+    }
+}
+
+
+
+
