@@ -1,0 +1,17 @@
+package de.borissov;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Gegenstand {
+
+    List<String> stringList = new ArrayList<>();
+
+    public Gegenstand(){
+        stringList.add("Silberseil");
+        stringList.add("Zypresse");
+        stringList.add("Zenit");
+        stringList.add("Blattader");
+        stringList.add("Raumflamme");
+    }
+}
